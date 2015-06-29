@@ -21,10 +21,10 @@ def check_guess(guess)
     @color = "red"
     "Way too low!"
   elsif guess.to_i > SECRET_NUMBER
-    @color = "pink"
+    @color = "mistyrose"
     "Too high!"
   elsif guess.to_i < SECRET_NUMBER
-    @color = "pink"
+    @color = "mistyrose"
     "Too Low!"
   elsif guess.to_i == SECRET_NUMBER
     @color = "green"
